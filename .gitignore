@@ -49,3 +49,13 @@ builds/**/images/*
 # security / ssl
 *.pem
 *.xxjson
+
+# Eclipse
+/.metadata
+/bin
+/.classpath
+/.settings
+/.project
+/META-INF
+/target
+build.properties

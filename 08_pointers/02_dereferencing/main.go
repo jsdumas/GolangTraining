@@ -11,6 +11,8 @@ func main() {
 
 	var b = &a
 	fmt.Println(b)  // 0x20818a220
+	
+	//*b allows to print value which is stored in memory address of b
 	fmt.Println(*b) // 43
 
 	// b is an int pointer;
